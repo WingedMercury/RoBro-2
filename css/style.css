@@ -1,0 +1,689 @@
+p a {
+  /*all*/
+  text-decoration: underline overline;
+  color: red;
+}
+
+p {
+  /*all*/
+  text-indent: 15px;
+  padding: 0px 10px;
+}
+
+.border {
+  /*home*/
+  border: red 10px dashed;
+  padding: 0px 10px;
+}
+
+.red {
+  /*all*/
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 601px) div.item2 {
+  /*competition*/
+  background-color: white;
+  color: red;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) div.item2 {
+  /*competition*/
+  background-color: white;
+  color: red;
+  font-size: 20px;
+}
+
+body {
+  /*all*/
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.background {
+  /*all*/
+  background-color: white;
+}
+
+.dropbtn {
+  /* Dropdown Button */
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  bottom: 120px;
+  right: 1px;
+}
+
+.dropdown {
+  /* The container <div> - needed to position the dropdown content */
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  /* Dropdown Content (Hidden by Default) */
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1; /*color of tabs before hover*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: -120px;
+  right: 1px;
+}
+
+.dropdown-content a {
+  /* Links inside the dropdown */
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  /* Change color of dropdown links on hover */
+  background-color: #ddd; /*color of tabs after hover*/
+}
+
+.dropdown:hover .dropdown-content {
+  /* Show the dropdown menu on hover */
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  background-color: #c0c0c0; /*color of menu after hover*/
+}
+
+.dropbtn-event {
+  /* event Dropdown Button */
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  right: 1px;
+}
+
+.dropdown-event {
+  /* event The container <div> - needed to position the dropdown content */
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-event {
+  /* event Dropdown Content (Hidden by Default) */
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1; /*color of tabs before hover*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: -10px;
+  right: 1px;
+}
+
+.dropdown-content-event a {
+  /* event Links inside the dropdown */
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+}
+
+.dropdown-content-event a:hover {
+  /* event Change color of dropdown links on hover */
+  background-color: #ddd; /*color of tabs after hover*/
+}
+
+.dropdown-event:hover .dropdown-content-event {
+  /* event Show the dropdown menu on hover */
+  display: block;
+}
+
+.dropdown-event:hover .dropbtn-event {
+  /* event Change the background color of the dropdown button when the dropdown content is shown */
+  background-color: #c0c0c0; /*color of menu after hover*/
+}
+
+.dropbtn3 {
+  /* Dropdown Button */
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  bottom: 120px;
+  right: 1px;
+}
+
+.dropdown-content3 {
+  /* Dropdown Content (Hidden by Default) */
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1; /*color of tabs before hover*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: -120px;
+  right: 1px;
+}
+
+.dropdown-content3 a {
+  /* Links inside the dropdown */
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+}
+
+.dropdown-content3 a:hover {
+  /* Change color of dropdown links on hover */
+  background-color: #ddd; /*color of tabs after hover*/
+}
+
+.dropdown:hover .dropdown-content3 {
+  /* Show the dropdown menu on hover */
+  display: block;
+}
+
+.dropdown:hover .dropbtn3 {
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  background-color: #c0c0c0; /*color of menu after hover*/
+}
+
+.jumbotron {
+  /* controls the jumbotron */
+  display: flex;
+  align-items: center;
+  background-image: url("https://previews.123rf.com/images/sdecoret/sdecoret1805/sdecoret180500528/101142894-white-robot-hand-on-blurred-background-using-robotics-arms-with-digital-screen-3d-rendering.jpg");
+  background-position: center;
+  background-size: 1500px 800px;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  /* controls the first heading of the jumbotron */
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: red;
+}
+
+.jumbotron h3 {
+  /*controls the second heading of the jumbotron */
+  margin: 0 0 20px;
+  color: red;
+}
+
+.logo {
+  /*logo in top left corner for home & news*/
+  height: 110px;
+  width: 110px;
+  margin: 0 0 -128px 0;
+}
+
+.logofix {
+  /*logo in top left corner for competition, resoures, and contact*/
+  height: 110px;
+  width: 110px;
+  margin: 0 0 -144px 0;
+}
+
+.grid-container {
+  /*grid for resoures*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  height: auto;
+  width: auto;
+  grid-gap: 10px;
+  background-color: red;
+  padding: 10px;
+  margin: 1px;
+}
+
+.grid-container div {
+  /*grid for resoures*/
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 2px 3px;
+  font-size: 16px;
+}
+
+.grid-event {
+  /*grid for competition*/
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: auto;
+  width: auto;
+  grid-gap: 2px;
+  background-color: red;
+  padding: 10px;
+  margin: 1px;
+}
+
+.grid-event div {
+  /*grid for competition*/
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 2px 2px;
+  font-size: 14px;
+}
+
+.img {
+  /*img in resoures*/
+  width: 100%;
+  height: auto;
+}
+
+.imgstay {
+  /*img in competition*/
+  width: 100%;
+  height: auto;
+}
+
+.imgcon {
+  /*img in contact*/
+  height: 30px;
+  width: 30px;
+}
+
+.redcon {
+  /*red in contact*/
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.item2 a {
+  /*links in resoures*/
+  color: red;
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.news {
+  /*for tabs in news*/
+  margin-bottom: 20px; /*Space Between Notes*/
+  padding: 8px 12px;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  font-size: 20px;
+}
+
+.news2 {
+  /*for need to know in news*/
+  margin-bottom: 20px; /*Space Between Notes*/
+  background-color: #ddffdd;
+  border-left: 6px solid #4caf50;
+  font-size: 20px;
+}
+
+.eve {
+  color: red;
+}
+.evelogo {
+  height: 110px;
+  width: 110px;
+}
+
+@media screen and (max-width: 770px) {
+  /*to be responsive*/
+  .img,
+  .item1 {
+    display: none;
+  }
+  .grid-container {
+    /*for resourses*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: auto;
+    width: auto;
+    grid-gap: 1px;
+    background-color: red;
+    padding: 0;
+    margin: 1px;
+  }
+  .item2 p {
+    /*link size in resourse*/
+    font-size: 12px;
+  }
+  .item2 a {
+    /*link style in resourse*/
+    text-decoration: black;
+    color: black;
+    cursor: auto;
+    pointer-events: auto;
+  }
+  .logo {
+    /*logo in top left corner for home & news*/
+    height: 90px;
+    width: 90px;
+    margin: 0 0 -128px 0;
+  }
+
+  .red {
+    /*all*/
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .border {
+    /*home*/
+    border: red 5px dashed;
+    padding: 0px 5px;
+  }
+  .imgcon {
+    /*img in contact*/
+    height: 20px;
+    width: 20px;
+  }
+
+  .redcon {
+    /*red in contact*/
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .news {
+    /*for tabs in news*/
+    margin-bottom: 10px; /*Space Between Notes*/
+    padding: 6px 8px;
+    background-color: #ffdddd;
+    border-left: 7px solid #f44336;
+    font-size: 14px;
+  }
+
+  .news2 {
+    /*for need to know in news*/
+    margin-bottom: 10px; /*Space Between Notes*/
+    background-color: #ddffdd;
+    border-left: 7px solid #4caf50;
+    font-size: 14px;
+  }
+
+  .dropbtn {
+    /* Dropdown Button */
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: auto;
+  }
+
+  .dropdown {
+    /* The container <div> - needed to position the dropdown content */
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    /* Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; /*color of tabs before hover*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+    right: auto;
+  }
+
+  .dropdown-content a {
+    /* Links inside the dropdown */
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    /* Change color of dropdown links on hover */
+    background-color: #ddd; /*color of tabs after hover*/
+  }
+
+  .dropdown:hover .dropdown-content {
+    /* Show the dropdown menu on hover */
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    background-color: #c0c0c0; /*color of menu after hover*/
+  }
+
+  .jumbotron {
+    /* controls the jumbotron */
+    display: flex;
+    align-items: center;
+    background-image: url("https://previews.123rf.com/images/sdecoret/sdecoret1805/sdecoret180500528/101142894-white-robot-hand-on-blurred-background-using-robotics-arms-with-digital-screen-3d-rendering.jpg");
+    background-position: center;
+    background-size: 1500px;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+  .jumbotron h2 {
+    /* controls the first heading of the jumbotron */
+    font-size: 40px;
+    margin: 0;
+    color: red;
+  }
+
+  .dropbtn3 {
+    /* Dropdown Button */
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    right: -20px;
+  }
+
+  .dropdown-content3 {
+    /* Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; /*color of tabs before hover*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    top: -30px;
+    right: -109px;
+  }
+  .dropdown-content3 a {
+    /* Links inside the dropdown */
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .dropbtn-event {
+    /* event Dropdown Button */
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 1px;
+  }
+
+  .dropdown-content-event {
+    /* event Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; /*color of tabs before hover*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    top: -10px;
+    right: -87px;
+  }
+
+  .dropdown-content-event a {
+    /* event Links inside the dropdown */
+    color: black;
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
+/*CALENDER*/
+header {
+  text-align: center;
+}
+
+#calendar {
+  width: 100%;
+}
+
+#calendar a {
+  color: #8e352e;
+  text-decoration: none;
+}
+
+#calendar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#calendar li {
+  display: block;
+  float: left;
+  width: 14.342%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-right: -2px; /*This Thanges Everything*/
+  margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+  height: 40px;
+  background: red; /*Color of Box for the Weekdays*/
+}
+
+#calendar ul.weekdays li {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  border: none !important;
+  padding: 10px 6px;
+  color: #fff; /*Color of Days Text*/
+  font-size: 13px;
+}
+
+#calendar .days li {
+  /*Code for the Days*/
+  height: 155px;
+}
+
+#calendar .days li:hover {
+  background: #d3d3d3; /*Color of Hover*/
+}
+
+#calendar .date {
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 4px;
+  background: red;
+  color: #fff; /*Color of Numbers*/
+  width: 20px;
+  border-radius: 50%;
+  float: right;
+}
+
+#calendar .event {
+  clear: both;
+  display: block;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  line-height: 14px;
+  background: #e4f2f2; /*BG Color of Events*/
+  border: 1px solid #b5dbdc; /*Border Color of Events*/
+  color: #009aaf; /*Text Color for the Time*/
+  text-decoration: none;
+}
+
+#calendar .event-desc {
+  color: #666; /*Color of Text*/
+  margin: 3px 0 7px 0;
+  text-decoration: none;
+}
+
+#calendar .other-month {
+  background: #f5f5f5; /*BG Color for Other Month*/
+  color: #666;
+}
+
+/*Mobile Responsiveness*/
+
+@media (max-width: 768px) {
+  #calendar .weekdays,
+  #calendar .other-month {
+    display: none;
+  }
+
+  #calendar li {
+    height: auto !important;
+    border: 1px solid #ededed;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -1px;
+  }
+
+  #calendar .date {
+    float: none;
+  }
+}
